@@ -103,6 +103,7 @@ a.header__nav-item:first-of-type {
     color: #fff;
 }
 
+
 /* general section */
 .section {
     padding: 80px 0;
@@ -189,6 +190,13 @@ a.header__nav-item:first-of-type {
     background-color: #333;
     width: 100%;
     padding: 40px 0;
+}
+.footer_events {
+    background-color: #333;
+    width: 100%;
+    padding: 40px 0;
+    position: absolute;
+    bottom: 0;
 }
 
 .footer__inner {
