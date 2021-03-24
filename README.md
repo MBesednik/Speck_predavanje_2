@@ -1,0 +1,1 @@
+# Speck_predavanje_2
