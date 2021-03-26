@@ -2,8 +2,20 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 /* header */
@@ -196,7 +208,7 @@ a.header__nav-item:first-of-type {
     background-color: #333;
     width: 100%;
     padding: 40px 0;
-    bottom: 0;
+    /* bottom: 0; */
 }
 
 .footer__inner {
